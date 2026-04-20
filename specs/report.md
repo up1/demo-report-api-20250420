@@ -107,6 +107,7 @@ User prompt
 1. Client send request to API
 2. Validate inputs from request
    * All fields are required
+   * Use library like [joi](https://www.npmjs.com/package/joi) for validation
 3. Send question and prompt template to OpenAI with [npm openai library](https://www.npmjs.com/package/openai) and Prompt template
    * Read OPENAI_API_KET from environment variable
    * use model=gpt-5.4-nano
